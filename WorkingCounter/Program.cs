@@ -12,14 +12,15 @@ namespace GenericsCounter
         {
             //declare new box
             Box box = new Box();
-            box.Add(new Apple());
-            box.Add(new Apple());
+            box.Add(new Apple(4));
+            box.Add(new Apple(3));
             box.Add(new Chip());
 
             Box box2 = new Box();
             box2.Add(new Apple());
+            box2.Add(new Apple());
             box2.Add(new Chip());
-
+            box2.Add(new Chip());
 
             Console.WriteLine(box.Count);
             Console.ReadLine();
