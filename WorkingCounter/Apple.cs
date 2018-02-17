@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace GenericsCounter
 {
-    public class Apple: iCountable
+    public class Apple: ICountable
     {
         string colour = "red";
 
-        int iCountable.Count => 1;
+        int ICountable.Count => 1;
     }
 }

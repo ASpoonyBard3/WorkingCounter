@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace GenericsCounter
 {
-    public interface iCountable
+    public interface ICountable
     {
+
          int Count { get; }
 
     }

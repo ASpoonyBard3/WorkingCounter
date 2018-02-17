@@ -10,6 +10,7 @@ namespace GenericsCounter
     {
         static void Main(string[] args)
         {
+            //declare new box
             Box box = new Box();
             box.Add(new Apple());
             box.Add(new Apple());

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GenericsCounter
 {
-    class Chip : iCountable
+    class Chip : ICountable
     {
-        //implements iCountable as it counts an object
+        //implements iCountable as it counts a single object a Chip.
         public int Count => 1;
     }
 }

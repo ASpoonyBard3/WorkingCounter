@@ -46,7 +46,7 @@
     <Compile Include="Box.cs" />
     <Compile Include="Cart.cs" />
     <Compile Include="Chip.cs" />
-    <Compile Include="countable.cs" />
+    <Compile Include="Counter.cs" />
     <Compile Include="iCountable.cs" />
     <Compile Include="Items.cs" />
     <Compile Include="Program.cs" />
