@@ -8,14 +8,8 @@ namespace GenericsCounter
 {
     public class Apple: ICountable
     {
-        string colour = "red";
-        private int v;
-
-
-        public Apple(int v)
-        {
-            this.v = v;
-        }
+        public string ColourRed = "red";
+        public string ColourGreen = "green";
 
         int ICountable.Count => 1;
     }
