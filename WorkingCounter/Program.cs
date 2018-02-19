@@ -11,6 +11,8 @@ namespace GenericsCounter
 
         static void Main(string[] args)
         {
+            
+
             //declare new box
             Box box = new Box();
             //add apples to box 
@@ -43,8 +45,8 @@ namespace GenericsCounter
             Console.ReadLine();
 
         }
+
+       
     }
-
-
 
 }
